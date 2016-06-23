@@ -1,5 +1,7 @@
 // Usage: `node scripts/generate-class.js < test/cases/html-hr-element.idl`
 
+"use strict";
+
 require("traceur").require.makeDefault(function (filename) {
   return filename.indexOf("node_modules") === -1;
 });
